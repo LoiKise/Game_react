@@ -4,12 +4,6 @@ import style from './Style.module.css';
 
 export default class ChangeGlass extends Component {
 
-
-
-
-
-
-
     render() {
         return (
             <div>

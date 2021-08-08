@@ -1,6 +1,7 @@
 
 // import Demo_State from './State/Demo_State';
 
+import BaiTapBookingTicket from "./BaiTapDatVe/BaiTapBookingTicket";
 import BaiTapGameTuXi from "./BaiTapGameTuXi/BaiTapGameTuXi";
 import List_Phim from "./Props/List_Phim";
 
@@ -11,7 +12,8 @@ function App() {
       {/* <Demo_State /> */}
       {/* <MovieDemo /> */}
       {/* <List_Phim /> */}
-      <BaiTapGameTuXi />
+      {/* <BaiTapGameTuXi /> */}
+      <BaiTapBookingTicket />
     </div>
   );
 }

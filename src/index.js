@@ -5,10 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 // set up thư viện redux
-import { store } from './Redux/configStore';
+// import { store } from './Redux/configStore';
 import { Provider } from 'react-redux';
-
-
+import { createStore } from 'redux';
+import rootReducer from './Redux/reducer/rootReducer';
+const store = createStore(rootReducer);
 
 
 ReactDOM.render(
